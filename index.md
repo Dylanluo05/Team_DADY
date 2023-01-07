@@ -13,4 +13,4 @@ What is Team DADY? It's Dylan, Aryan, Daniel, and Yash. This is our mini project
 <button onclick="location.href='https://github.com/Dylanluo05';"> Dylan </button>
 <button onclick="location.href='https://github.com/Aryanboxout';"> Aryan </button>
 <button onclick="location.href='https://github.com/dtsivkovski';"> Daniel </button>
-<button onclick="location.href='https://github.com/YashShah138';"> Lightboard </button>
+<button onclick="location.href='https://github.com/YashShah138';"> Yash </button>
