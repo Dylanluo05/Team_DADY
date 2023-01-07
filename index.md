@@ -3,10 +3,10 @@
 What is Team DADY? It's Dylan, Aryan, Daniel, and Yash. This is our mini project to test frontend and deployment of our four FRQs from the past weeks. Go ahead and try out these links!
 
 
-<button onclick="location.href='/calculator';"> Calculator </button>
-<button onclick="location.href='/person';"> Person API </button>
-<button onclick="location.href='/calendar';"> Calendar </button>
-<button onclick="location.href='/lightboard';"> Lightboard </button>
+<button onclick="location.href='/Team_DADY/calculator';"> Calculator </button>
+<button onclick="location.href='/Team_DADY/person';"> Person API </button>
+<button onclick="location.href='/Team_DADY/calendar';"> Calendar </button>
+<button onclick="location.href='/Team_DADY/lightboard';"> Lightboard </button>
 
 
 ## Github Links
