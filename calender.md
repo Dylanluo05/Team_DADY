@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
     <head></head>
     <style></style>
     <body>
-        <div class = ""></div>
+        <h1 style = "color: blue">Hello World</h1>
         <script></script>
     </body>
 </html>
