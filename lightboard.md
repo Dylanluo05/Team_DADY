@@ -1,6 +1,6 @@
 # Lightboard API
 
-<button id="refresh-button">Refresh</button>
+<button id="refresh-button">Generate New</button>
 
 <div id="table-container"></div>
 
