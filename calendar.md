@@ -35,6 +35,7 @@
     }
 </style>
 
+## isLeapYear(): ##
 <form id = "calendar-form-1"> 
     <label for = "year-1" class = "label-1">Enter a year:</label><br>
     <input type = "number" id = "year-1" name = "year-1" class = "input-1"><br>
@@ -52,6 +53,7 @@
 
 <br>
 
+## firstDayOfYear(): ##
 <form id = "calendar-form-2"> 
     <label for = "year-2" class = "label-1">Enter a year:</label><br>
     <input type = "number" id = "year-2" name = "year-2" class = "input-1"><br>
@@ -69,6 +71,7 @@
 
 <br>
 
+## dayOfYear(): ##
 <form id = "calendar-form-3"> 
     <label for = "year-3" class = "label-1">Enter a year:</label><br>
     <input type = "number" id = "year-3" name = "year-3" class = "input-1"><br>
@@ -92,6 +95,7 @@
 
 <br>
 
+## dayOfWeek(): ##
 <form id = "calendar-form-4"> 
     <label for = "year-4" class = "label-1">Enter a year:</label><br>
     <input type = "number" id = "year-4" name = "year-4" class = "input-1"><br>
@@ -115,6 +119,7 @@
 
 <br>
 
+## numberOfLeapYears(): ##
 <form id = "calendar-form-5"> 
     <label for = "year-pair-1" class = "label-1">Enter the first year:</label><br>
     <input type = "number" id = "year-pair-1" name = "year-pair-1" class = "input-1"><br>
