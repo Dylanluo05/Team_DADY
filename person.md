@@ -40,14 +40,14 @@
     <input type = "email" id = "year-1" name = "year-1" class = "input-1"><br>
     <label for = "name" class = "label-1">Enter name</label><br>
     <input type = "name" id = "year-2" name = "year-2" class = "input-1"><br>
-    <label for = "psswd" class = "label-1">Enter PSSWD:</label><br>
+    <label for = "psswd" class = "label-1">Enter Password:</label><br>
     <input type = "psswd" id = "year-2" name = "year-2" class = "input-1"><br>
-    <label for = "date" class = "label-1">Enter DOB:</label><br>
+    <label for = "date" class = "label-1">Enter Date of Birth:</label><br>
     <input type = "date" id = "month" name = "month" class = "input-1"><br>
     <label for = "weight" class = "label-1">Enter Weight</label><br>
     <input type = "weight" id = "day" name = "day" class = "input-1"><br>
-    <label for = "Height" class = "label-1">Enter Weight</label><br>
-    <input type = "Height" id = "day" name = "day" class = "input-1"><br>
+    <label for = "height" class = "label-1">Enter Height</label><br>
+    <input type = "height" id = "day" name = "day" class = "input-1"><br>
     <input type = "submit" class = "button-1">
 </form>
 
