@@ -82,5 +82,5 @@
         rpnCell.innerHTML = data.RPN;
         resultCell.innerHTML = `<strong>${data.Result}</strong>`;
       });
-  });
+    });
 </script>
