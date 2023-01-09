@@ -35,7 +35,7 @@
     }
 </style>
 
-<form id = "calendar-form"> 
+<form id = "person-form"> 
     <label for = "year-1" class = "label-1">Enter year 1:</label><br>
     <input type = "number" id = "year-1" name = "year-1" class = "input-1"><br>
     <label for = "year-2" class = "label-1">Enter year 2:</label><br>
@@ -60,14 +60,14 @@
 
 <script>
     // Deployed API URL
-    const API_URL = 'https://frq.dtsivkovski.tk/api/calendar';
+    const API_URL = 'https://frq.dtsivkovski.tk/api/person';
 
     // Fetching API when called by button
-    document.getElementById('calendar-form').addEventListener('submit', (event) => {
+    document.getElementById('person-form').addEventListener('submit', (event) => {
     event.preventDefault();
-    let expression = document.getElementById('year-1').value;
+    let expression = document.getElementById('expression-input').value;
     // Combine API URL with expression.
-    fetch(`${API_URL}/isLeapYear/${expression}`)
+    fetch(`${API_URL}/${expression}`)
       .then(response => response.json())
       .then(data => {
         // Output data to table
