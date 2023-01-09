@@ -47,6 +47,15 @@
     <input type = "submit" class = "button-1">
 </form>
 
+<table id="results-table">
+    <tr>
+        <th>Expression</th>
+        <th>Tokens</th> 
+        <th>RPN</th>
+        <th> <strong> Result </strong> </th>
+    </tr>
+</table>
+
 <script>
     const API_URL = 'https://frq.dtsivkovski.tk/api/calendar';
 
