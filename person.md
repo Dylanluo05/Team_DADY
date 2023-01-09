@@ -44,9 +44,9 @@
     <input type = "psswd" id = "year-2" name = "year-2" class = "input-1"><br>
     <label for = "date" class = "label-1">Enter Date of Birth:</label><br>
     <input type = "date" id = "month" name = "month" class = "input-1"><br>
-    <label for = "weight" class = "label-1">Enter Weight</label><br>
+    <label for = "weight" class = "label-1">Enter Weight (lbs)</label><br>
     <input type = "weight" id = "day" name = "day" class = "input-1"><br>
-    <label for = "height" class = "label-1">Enter Height</label><br>
+    <label for = "height" class = "label-1">Enter Height (inches)</label><br>
     <input type = "height" id = "day" name = "day" class = "input-1"><br>
     <input type = "submit" class = "button-1">
 </form>
