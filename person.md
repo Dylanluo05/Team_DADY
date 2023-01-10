@@ -36,14 +36,18 @@
 </style>
 
 <form id = "person-form"> 
-    <label for = "year-1" class = "label-1">Enter year 1:</label><br>
-    <input type = "number" id = "year-1" name = "year-1" class = "input-1"><br>
-    <label for = "year-2" class = "label-1">Enter year 2:</label><br>
-    <input type = "number" id = "year-2" name = "year-2" class = "input-1"><br>
-    <label for = "month" class = "label-1">Enter month:</label><br>
-    <input type = "number" id = "month" name = "month" class = "input-1"><br>
-    <label for = "day" class = "label-1">Enter day:</label><br>
-    <input type = "number" id = "day" name = "day" class = "input-1"><br>
+    <label for = "email" class = "label-1">Enter email address</label><br>
+    <input type = "email" id = "year-1" name = "year-1" class = "input-1"><br>
+    <label for = "name" class = "label-1">Enter name</label><br>
+    <input type = "name" id = "year-2" name = "year-2" class = "input-1"><br>
+    <label for = "psswd" class = "label-1">Enter Password:</label><br>
+    <input type = "psswd" id = "year-2" name = "year-2" class = "input-1"><br>
+    <label for = "date" class = "label-1">Enter Date of Birth:</label><br>
+    <input type = "date" id = "month" name = "month" class = "input-1"><br>
+    <label for = "weight" class = "label-1">Enter Weight (lbs)</label><br>
+    <input type = "weight" id = "day" name = "day" class = "input-1"><br>
+    <label for = "height" class = "label-1">Enter Height (inches)</label><br>
+    <input type = "height" id = "day" name = "day" class = "input-1"><br>
     <input type = "submit" class = "button-1">
 </form>
 
@@ -69,7 +73,8 @@
     // Combine API URL with expression.
     fetch(`${API_URL}/${expression}`)
       .then(response => response.json())
-      .then(data => {
+      .then(data => 
+      {
         // Output data to table
         const table = document.getElementById('results-table');
         const row = table.insertRow(-1);
@@ -84,3 +89,4 @@
       });
   });
 </script>
+
