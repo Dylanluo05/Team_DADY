@@ -33,7 +33,8 @@ document.getElementById('clear-button').addEventListener('click', () => {
   });
 
 // Deployed API URL
-  const API_URL = 'https://frq.dtsivkovski.tk/api/calculator';
+  // const API_URL = 'https://frq.dtsivkovski.tk/api/calculator';
+  const API_URL = 'http://localhost:8085/'
 
 // Fetching API when called by button
   document.getElementById('calculator-form').addEventListener('submit', (event) => {
