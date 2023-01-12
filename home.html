@@ -11,18 +11,18 @@
         html, body {
             margin: 0;
             padding: 0;
-            background-color: whitesmoke;
+            background-color: #160E2C;
             font-family: 'Raleway', sans-serif;
         }
 
         #navbar-container {
             height: 50px;
             width: 100%;
-            background-color: royalblue;
+            background-color: #160E2C;
         }
 
         .navlinks-container {
-            height: 50px;
+            height: 70px;
             width: 100%;
             display: flex;
             flex-direction: row;
@@ -30,7 +30,7 @@
         }
 
         .navlink {
-            margin-left: 20px;
+            margin-left: 30px;
             color: white;
             cursor: pointer;
         }
@@ -39,27 +39,27 @@
             font-family: 'Oswald', sans-serif;
             font-size: 48px;
             color: white;
+            transition-duration: 0.4s;
+        }
+
+        h1:hover {
+            font-size: 60px;
         }
 
         #home-background-1 {
             height: 300px;
             width: 100%;
-            background-image: linear-gradient(royalblue, whitesmoke);
+            background-color: #160E2C;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
 
-        #home-background-2 {
-            height: 400px;
-            width: 100%;
-            background-color: whitesmoke;
-        }
-
         .navdropdown-container {
-            height: 130px;
+            height: 110px;
             width: 130px;
             background-color: darkblue;
+            box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.7);
             visibility: hidden;
             display: flex;
             flex-direction: column;
@@ -77,6 +77,14 @@
             position: relative;
             margin-top: 5px;
             z-index: 3;
+        }
+
+        #left-sidebar {
+            position: absolute;
+            height: 100vh;
+            width: 50px;
+            margin-left: 0;
+            background-color: black;
         }
     </style>
     <body>
@@ -103,7 +111,9 @@
         </div>
 
         <div id = "home-background-2">
+            <div id = "left-sidebar">
 
+            </div>
         </div>
 
         <script>
