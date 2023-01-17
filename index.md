@@ -7,7 +7,7 @@ What is Team DADY? It's Dylan, Aryan, Daniel, and Yash. This is our mini project
 <button onclick="location.href='/Team_DADY/person';"> Person API </button>
 <button onclick="location.href='/Team_DADY/calendar';"> Calendar </button>
 <button onclick="location.href='/Team_DADY/lightboard';"> Lightboard </button>
-<button onclick="location.href='/DADY-ACADEMY/home';"> Home </button>
+<button onclick="location.href='/Team_DADY/home';"> Home </button>
 
 
 ## Github Links
